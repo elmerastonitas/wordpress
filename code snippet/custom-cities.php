@@ -6,7 +6,7 @@
  * This code snippet adds custom cities to WooCommerce using the WC City Select plugin.
  * 
  * Steps to add cities:
- * 1. Install and activate the WC City Select plugin (https://wordpress.org/plugins/wc-city
+ * 1. Install and activate the WC City Select plugin (https://wordpress.org/plugins/wc-city)
  * 2. Add the list of cities to the functions.php file or with the Code Snippets plugin (https://es.wordpress.org/plugins/code-snippets/).
  * 3. Use the wc_city_select_cities filter to load your cities.
  * 
