@@ -1,6 +1,6 @@
 
 
-# Code Snippet README
+# Code Snippet
 
 This README provides an overview and usage details for the `code snippet` folder, which contains two PHP files.
 
