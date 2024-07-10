@@ -27,4 +27,11 @@ This code snippet adds custom fields for cities in Peru to the WooCommerce check
 2. Add the list of cities to the `functions.php` file or use the Code Snippets plugin (https://wordpress.org/plugins/code-snippets/).
 3. Use the `wc_city_select_cities` filter to load your cities.
 
+## 4. change-button-text.php
+
+This code snippet modifies the default button texts in WooCommerce.
+
+To use this snippet:
+1. Add the list of cities to the `functions.php` file or use the Code Snippets plugin (https://wordpress.org/plugins/code-snippets/).
+
 Please note that these code snippets assume familiarity with WordPress development and require appropriate setup and configuration.
