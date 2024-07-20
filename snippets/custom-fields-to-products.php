@@ -8,6 +8,16 @@ Add custom fields to product page in WooCommerce:
 3. Add the code to functions.php or from Code Snippets snippets (https://es.wordpress.org/plugins/code-snippets/).
 */
 
+/* Add Font Awesome to WordPress */
+
+function enqueue_font_awesome()
+{
+    wp_enqueue_style('font-awesome', 'https://jarchcompany.com/wp-content/font-awesome/css/font-awesome.min.css');
+}
+add_action('wp_enqueue_scripts', 'enqueue_font_awesome');
+
+
+
 // Hooks the function `acf_producto` to the `woocommerce_product_meta_start` action. This action is triggered at the beginning of the product meta section in WooCommerce product pages.
 add_action('woocommerce_product_meta_start', "acf_producto");
 
@@ -66,6 +76,15 @@ function acf_producto()
                 // Outputs the field label and value in a paragraph tag.
                 echo "<p><strong>$field_label: </strong>" . $field_value . "</p>";
             }
+        }
+
+        // Adds the link to download the technical sheet.
+        $file = get_field('descargar_ficha_tecnica');
+        if ($file) {
+            $url = wp_get_attachment_url($file);
+            /*echo '<p><a style=" font-weight: 600;">Ficha técnica: </a><a href="' . esc_html($url) . '" target="_blank" style="color: #00A0E0;" >Descargar</a></p>';*/
+
+            echo '<p><a href="' . esc_html($url) . '" target="_blank"><button style="background-color: #ff0000d8; color: #fff; border: none; padding: 10px 20px; font-size: 13px; border-radius: 50px; cursor: pointer; font-weight: 500; text-transform: none;"><i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #ffffff;"></i> Descargar ficha técnica</button></a></p>';
         }
     }
 }

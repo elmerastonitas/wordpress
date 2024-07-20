@@ -4,10 +4,11 @@
 /**
  * Change WordPress login logo.
  *
- * This code snippet customizes the WordPress login page logo,
- * replacing it with a specific image and adjusting some styles to make it properly fit the available space.
- *Also, modify the logo link so that it points to the main website and opens in a new tab.
- * Add the code to functions.php or with the Code Snippets plugin (https://es.wordpress.org/plugins/code-snippets/)
+ * This code snippet customizes the WordPress login page logo. It replaces the default logo with a specific image and adjusts some styles to ensure it fits the available space. Additionally, it modifies the logo link to point to the main website and open in a new tab.
+ * 
+ * To use this code snippet:
+ * 1. Add the code to `functions.php` or use the Code Snippets plugin (https://wordpress.org/plugins/code-snippets/).
+ * 2. Replace the URL in the `background-image` property with the URL of your desired logo.
  */
 
 /* Defines the function that customizes the logo */
