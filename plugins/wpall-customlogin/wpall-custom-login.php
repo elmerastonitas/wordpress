@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: WPall CustomLogin
- * Plugin URI: https://elmerastonitas.com/wpall-customlogin
+ * Plugin URI: https://github.com/elmerastonitas/wordpress/tree/main/plugins/wpall-customlogin
  * Description: Customize the WordPress login page.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Elmer Astonitas
  * Author URI: https://elmerastonitas.com/
  * License: GNU General Public License v3.0

@@ -1,6 +1,5 @@
-# Copyright (C) 2024 Elmer Astonitas
-# This file is distributed under the same license as the WPall CustomLogin plugin.
-# Elmer Astonitas <elmer@astonitas.com>
+# Translation of WPall CustomLogin into Spanish.
+
 #
 msgid ""
 msgstr ""

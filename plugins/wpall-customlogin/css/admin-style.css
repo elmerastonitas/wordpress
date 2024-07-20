@@ -1,28 +1,28 @@
 /* admin-style.css */
-.wrap h1 {
+#login h1 {
     color: #333;
 }
 
-.wrap input[type="number"],
-.wrap button {
+#login input[type="number"],
+#login button {
     width: 100%;
     max-width: 400px;
     margin-top: 10px;
 }
 
-#logo_preview img {
+#login #logo_preview img {
     max-width: 100px; /* Ajustado para miniatura */
     height: auto;
     margin-top: 10px;
 }
 
-.wrap .description {
+#login .description {
     color: #666;
     font-size: 14px;
 }
 
-button#upload_logo_button,
-button#remove_logo_button {
+#login button#upload_logo_button,
+#login button#remove_logo_button {
     display: inline-block;
     width: auto;
     max-width: auto; /* Ajusta el ancho máximo del botón */
@@ -36,10 +36,10 @@ button#remove_logo_button {
     border-radius: 3px; /* Borde redondeado del botón */
 }
 
-button#upload_logo_button {
+#login button#upload_logo_button {
     background-color: #0073aa; /* Color de fondo del botón de carga */
 }
 
-button#remove_logo_button {
+#login button#remove_logo_button {
     background-color: #d9534f; /* Color de fondo del botón de eliminación */
 }

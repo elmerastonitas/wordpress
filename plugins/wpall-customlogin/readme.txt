@@ -5,7 +5,7 @@ Tags: login, custom login, branding
 Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 6.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,7 +15,7 @@ Customize the WordPress login page with your own logo and settings.
 
 == Description ==
 
-WPall CustomLogin allows you to customize the WordPress login page with your own logo and settings. You can upload a custom logo, set its size, and make the login logo link to your homepage.
+WPall CustomLogin allows you to customize the WordPress login page with your own logo and settings. You can upload a custom logo, set its size, and make the login logo link to your homepage. The latest update fixes an issue where customizations were affecting other areas of the WordPress admin. Now, changes will only apply to the WordPress login page.
 
 == Installation ==
 
@@ -43,10 +43,14 @@ Yes, you can set the height and width of the logo in the settings page. The heig
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed issue where plugin customizations were affecting other parts of the WordPress admin.
+* Updated plugin to ensure that changes only apply to the WordPress login page.
+
 = 1.0.0 =
 * Initial release.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-* First version of the plugin.
+= 1.0.1 =
+* Important update to resolve conflicts with other areas of WordPress admin. The plugin now only affects the WordPress login page.

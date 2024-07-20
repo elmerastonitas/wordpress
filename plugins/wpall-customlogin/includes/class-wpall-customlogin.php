@@ -47,14 +47,17 @@ class WPAll_CustomLogin {
     }
 
     public function admin_assets() {
-        wp_enqueue_style('custom-login-admin-style', plugin_dir_url(__FILE__) . '../css/admin-style.css');
-        wp_enqueue_media();
-        wp_enqueue_script('custom-login-admin-script', plugin_dir_url(__FILE__) . '../js/admin-script.js', array('jquery'), null, true);
-        wp_localize_script('custom-login-admin-script', 'wpcustomLoginScript', array(
-            'chooseLogo' => __('Choose Logo', 'wpall-customlogin'),
-            'removeLogo' => __('Remove Logo', 'wpall-customlogin'),
-            'logoPreview' => __('Logo Preview', 'wpall-customlogin')
-        ));
+        // Solo cargar en la página de configuración del plugin
+        if (isset($_GET['page']) && $_GET['page'] === 'custom-login') {
+            wp_enqueue_style('custom-login-admin-style', plugin_dir_url(__FILE__) . '../css/admin-style.css');
+            wp_enqueue_media();
+            wp_enqueue_script('custom-login-admin-script', plugin_dir_url(__FILE__) . '../js/admin-script.js', array('jquery'), null, true);
+            wp_localize_script('custom-login-admin-script', 'wpcustomLoginScript', array(
+                'chooseLogo' => __('Choose Logo', 'wpall-customlogin'),
+                'removeLogo' => __('Remove Logo', 'wpall-customlogin'),
+                'logoPreview' => __('Logo Preview', 'wpall-customlogin')
+            ));
+        }
     }
 
     public function admin_menu() {
