@@ -1,0 +1,51 @@
+# Copyright (C) 2024 Elmer Astonitas
+# This file is distributed under the same license as the WPall CustomLogin plugin.
+# Elmer Astonitas <elmer@astonitas.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WPall CustomLogin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://elmerastonitas.com/wpall-customlogin\n"
+"POT-Creation-Date: 2024-07-19 12:00+0000\n"
+"PO-Revision-Date: 2024-07-19 23:05-0500\n"
+"Last-Translator: Elmer Astonitas <elmer@astonitas.com>\n"
+"Language-Team: Spanish <team@translation.example>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+msgid "Custom Login Settings"
+msgstr "Configuración de Inicio de Sesión Personalizado"
+
+msgid "Custom Login"
+msgstr ""
+
+msgid "Logo URL"
+msgstr "URL del Logo"
+
+msgid "Logo Height (px)"
+msgstr "Altura del Logo (px)"
+
+msgid "Logo Width (px)"
+msgstr "Ancho del Logo (px)"
+
+msgid "Enter the settings for the custom login logo below."
+msgstr "Introduce la configuración para el logo de inicio de sesión personalizado a continuación."
+
+msgid "Upload/Select Logo"
+msgstr "Subir/Seleccionar Logo"
+
+msgid "Remove Logo"
+msgstr "Eliminar Logo"
+
+msgid "Logo Preview"
+msgstr "Vista Previa del Logo"
+
+msgid "Go to"
+msgstr "Ir a"
+
+msgid "Choose Logo"
+msgstr "Elegir Logo"
